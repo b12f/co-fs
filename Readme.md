@@ -1,7 +1,7 @@
 
 # co-fs
 
-  Node core `fs` wrapped functions that return thunks for [co](https://github.com/visionmedia/co).
+  Node core `fs` wrapped functions that return thunks for [co](https://github.com/visionmedia/co). This repository is a fork from [tj/co-fs](https://github.com/tj/co-fs), updated with a couple of the newer fs methods.
 
 ## Installation
 
@@ -21,4 +21,3 @@ var files = yield fs.readdir('/tmp')
 ## License
 
   MIT
-
